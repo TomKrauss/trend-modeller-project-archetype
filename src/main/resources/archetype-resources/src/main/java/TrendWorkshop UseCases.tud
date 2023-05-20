@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<use-case-diagram version="1" metaclass="uml.use_case_graph">
+    <diagram-system-boundary>
+        <stereotype type="java.lang.String" value="Application Actions"/>
+        <diagram type="ref" ref="./"/>
+        <id type="java.lang.String" value="USCS-3r04r854926nqxhcbhox7ymob"/>
+    </diagram-system-boundary>
+</use-case-diagram>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modeller>
+    <copyrightHeaderTemplate>/de/gebit/trend/tools/sourcegen/templates/java/copyright.tmpl</copyrightHeaderTemplate>
+    <generateConstants>true</generateConstants>
+    <generateWellknownTransitionConstants>false</generateWellknownTransitionConstants>
+    <generateActivityIDFilePerDiagram>false</generateActivityIDFilePerDiagram>
+    <generateModelLoaderConstants>false</generateModelLoaderConstants>
+    <useQualifiedDiagramNames>false</useQualifiedDiagramNames>
+    <copyMethodComments>true</copyMethodComments>
+    <copyAttributeComments>true</copyAttributeComments>
+    <updateModelLoaderConfiguration>MODULE_XML</updateModelLoaderConfiguration>
+    <generator>
+        <configuration modelLoader="${package}.${modelLoader}" modelGenerator="de.gebit.trend.tools.sourcegen.model.DefaultTrendModelGenerator" base="${package}" includeSubpackages="true" default="true" inheritGenerateConstants="false">
+            <generateConstants>true</generateConstants>
+            <generateMetadataConstants>true</generateMetadataConstants>
+            <generateMetadataClasses>true</generateMetadataClasses>
+        </configuration>
+    </generator>
+</modeller>
