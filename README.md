@@ -8,7 +8,7 @@ A maven archetype to create a TREND Modeller project. To use it:
 Now you may create TREND Modeller Maven Projects using a command like the following:
 
 ```
-gmvn archetype:generate -DarchetypeGroupId=de.gebit.trend\
+mvn archetype:generate -DarchetypeGroupId=de.gebit.trend\
    -DarchetypeArtifactId=trend-modeller-project-archetype\
    -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=de.gebit.trend\
    -DartifactId=workshop -DmodelLoader=Defaultmodelloader\
