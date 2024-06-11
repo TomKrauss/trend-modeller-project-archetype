@@ -11,16 +11,18 @@ Now you may create TREND Modeller Maven Projects using a command like the follow
 mvn archetype:generate -DarchetypeGroupId=de.gebit.trend\
    -DarchetypeArtifactId=trend-modeller-project-archetype\
    -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=de.gebit.trend\
-   -DartifactId=workshop -DmodelLoader=Defaultmodelloader\
+   -DartifactId=workshop -DmodelLoader=DefaultModelLoader\
    -Dpackage=de.gebit.trend.mtest\
+   -DtrendVersion=11.0.2\
    -Dversion=0.0.1
 ```
 
 The variables `groupId`, `artifactId`, `modelLoader` and `package` may be redefined as required.
 
+**Caveat**: do not use Powershell on Windows to create the project using archetypes - this might fail. Use cmd shell instead.
 
 Enjoy
 
 Tom
 
- 
+

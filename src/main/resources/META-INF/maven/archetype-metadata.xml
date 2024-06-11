@@ -9,6 +9,9 @@
 		<requiredProperty key="package">
 			<defaultValue>de.gebit.trend.workshop</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="trendVersion">
+			<defaultValue>11.0.2</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
     <fileSets>
         <fileSet packaged="true">
