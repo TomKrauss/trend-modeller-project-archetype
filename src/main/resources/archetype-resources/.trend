@@ -12,8 +12,6 @@
     <generator>
         <configuration modelLoader="${package}.${modelLoader}" modelGenerator="de.gebit.trend.tools.sourcegen.model.DefaultTrendModelGenerator" base="${package}" includeSubpackages="true" default="true" inheritGenerateConstants="false">
             <generateConstants>true</generateConstants>
-            <generateMetadataConstants>true</generateMetadataConstants>
-            <generateMetadataClasses>true</generateMetadataClasses>
         </configuration>
     </generator>
 </modeller>
